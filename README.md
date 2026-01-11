@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/github/v/tag/sashite/snn.rb?label=Version&logo=github)](https://github.com/sashite/snn.rb/tags)
 [![Yard documentation](https://img.shields.io/badge/Yard-documentation-blue.svg?logo=github)](https://rubydoc.info/github/sashite/snn.rb/main)
 ![Ruby](https://github.com/sashite/snn.rb/actions/workflows/main.yml/badge.svg?branch=main)
-[![License](https://img.shields.io/github/license/sashite/snn.rb?label=License&logo=github)](https://github.com/sashite/snn.rb/raw/main/LICENSE.md)
+[![License](https://img.shields.io/github/license/sashite/snn.rb?label=License&logo=github)](https://github.com/sashite/snn.rb/raw/main/LICENSE)
 
 > **SNN** (Style Name Notation) implementation for the Ruby language.
 
@@ -339,43 +339,12 @@ Sashite::Snn.parse("")
 - **Universal**: Supports any abstract strategy board game style
 - **No dependencies**: Foundational primitive requiring no external gems
 
-## Documentation
+## Related Specifications
 
-- [SNN Specification v1.0.0](https://sashite.dev/specs/snn/1.0.0/) — Complete technical specification
-- [SNN Examples](https://sashite.dev/specs/snn/1.0.0/examples/) — Comprehensive examples
-- [API Documentation](https://rubydoc.info/github/sashite/snn.rb/main) — Full API reference
-
-## Development
-
-```sh
-# Clone the repository
-git clone https://github.com/sashite/snn.rb.git
-cd snn.rb
-
-# Install dependencies
-bundle install
-
-# Run tests
-ruby test.rb
-
-# Generate documentation
-yard doc
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Add tests for your changes
-4. Ensure all tests pass (`ruby test.rb`)
-5. Commit your changes (`git commit -am 'Add new feature'`)
-6. Push to the branch (`git push origin feature/new-feature`)
-7. Create a Pull Request
+- [Game Protocol](https://sashite.dev/game-protocol/) — Conceptual foundation
+- [SNN Specification](https://sashite.dev/specs/snn/1.0.0/) — Official specification
+- [SNN Examples](https://sashite.dev/specs/snn/1.0.0/examples/) — Usage examples
 
 ## License
 
-Available as open source under the [MIT License](https://opensource.org/licenses/MIT).
-
-## About
-
-Maintained by [Sashité](https://sashite.com/) — promoting chess variants and sharing the beauty of board game cultures.
+Available as open source under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
